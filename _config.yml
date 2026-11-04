@@ -1,0 +1,18 @@
+title: Serene Coaching
+tagline: Unlock your potential. Create the life you want.
+description: Life and career coaching placeholder website
+# Contact form submissions are emailed to this address (via Formspree).
+# Change it to your own address; confirm it once on formspree.io after the first submission.
+contact_email: you@example.com
+markdown: kramdown
+plugins: []
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
+nav:
+  - {title: Home, url: /}
+  - {title: About, url: /about/}
+  - {title: Coaching, url: /coaching/}
+  - {title: Corporate, url: /corporate/}
+  - {title: Workshops, url: /workshops/}
+  - {title: Testimonials, url: /testimonials/}
+  - {title: Blog, url: /blog/}
+  - {title: Contact, url: /contact/}
