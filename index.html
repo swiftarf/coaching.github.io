@@ -1,0 +1,40 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>{{ site.tagline }}</h1>
+      <p>Placeholder introduction. Supportive, practical coaching to help you gain clarity, confidence and direction.</p>
+      <a class="btn" href="{{ '/contact/' | relative_url }}">Book a free call</a>
+    </div>
+    {% include placeholder.html label="Hero image placeholder" class="tall" %}
+  </div>
+</section>
+<section class="section">
+  <div class="container split">
+    {% include placeholder.html label="About image placeholder" %}
+    <div class="reveal">
+      <h2 style="text-align:left">Hello, I'm your coach</h2>
+      <p>Placeholder text introducing yourself and your approach.</p>
+      <a class="btn primary" href="{{ '/about/' | relative_url }}">Read more</a>
+    </div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="container">
+    <h2>How I can help</h2>
+    <div class="cards">
+      <div class="card reveal"><h3>Coaching</h3><p>One-to-one support. <a href="{{ '/coaching/' | relative_url }}">Learn more</a></p></div>
+      <div class="card reveal"><h3>Corporate</h3><p>Teams and leaders. <a href="{{ '/corporate/' | relative_url }}">Learn more</a></p></div>
+      <div class="card reveal"><h3>Workshops</h3><p>Learn together. <a href="{{ '/workshops/' | relative_url }}">Learn more</a></p></div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container content">
+    <h2>What clients say</h2>
+    <p class="quote reveal">"Placeholder testimonial."</p>
+  </div>
+</section>
